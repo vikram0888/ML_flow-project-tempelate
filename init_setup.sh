@@ -5,3 +5,6 @@ source activate ./env
 pip install -r requirements.txt
 conda env export > conda.yaml
 #after running this if ur still in base env then write this --> conda activate ./env
+
+##local packages -
+-e . ##this is to install from setup.py
